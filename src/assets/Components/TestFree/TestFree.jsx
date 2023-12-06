@@ -4,7 +4,7 @@ const TestFree = ()=>{
 
     return(
         <>
-        
+        <h1>aca va el test free</h1>
         </>
     )
 }

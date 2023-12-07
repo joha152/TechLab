@@ -8,6 +8,7 @@ import Price from "./assets/Components/Price/Price";
 import Service from "./assets/Components/Service/Service"
 import Login from './assets/Components/Login/Login';
 import TestFree from './assets/Components/TestFree/TestFree';
+import Footer from './assets/Components/Footer/Footer';
 
 function App() {
 
@@ -22,9 +23,9 @@ function App() {
       <Route path="/service" element={<Service/>} />
       <Route path="/login" element={<Login/>}  />
       <Route path="/testfree" element={<TestFree/>}  />
-
       </Routes>
 
+      <Footer/>
     </>
   )
 }

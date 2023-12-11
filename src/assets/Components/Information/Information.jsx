@@ -1,4 +1,6 @@
 import React from "react";
+import style from "./Information.module.css";
+
 
 
 const Information = () => {
@@ -6,9 +8,14 @@ const Information = () => {
 
     return (
         <>
-            <h1>O que o TechLab quer para você</h1>
+            <div className={style.titulo}>
+                <h1>O que o TechLab quer para você</h1>
+            </div>
 
-            <h2>Visão</h2>
+            <div>
+                <h2>Visão</h2>
+            </div>
+
             <p>Com uma visão de planejamento de 3 a 5 anos, nossa empresa se projeta como referência no desenvolvimento de sistemas ERP personalizados.
                 O objetivo ao final deste período é ser reconhecido nacionalmente no mercado. Para atingir esse marco, focamos em métricas específicas, visando ter
                 nosso sistema ERP padrão totalmente pronto e vender no mínimo 20 sistemas por mês.Nosso objetivo claro é nos posicionarmos como líderes nacionais em customização de ERP para micro e pequenas empresas. Esta abordagem

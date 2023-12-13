@@ -1,3 +1,6 @@
+body {
+  background-image: url(../../../images/fondoceleste.jpeg);
+}
 .card {
     box-sizing: border-box;
     width: 200px;
@@ -17,6 +20,7 @@
     font-weight: bolder;
     color: #202A4E;
     font-family: 'nunito';
+    margin-bottom: 1rem;
   }
   
   .card:hover {
@@ -55,10 +59,16 @@
   }
 
   .contenedor{
-
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1.3rem;
     width: 70rem;
+    margin-bottom: 2rem;
+  }
+
+  .contenedorSupremo{
+    background-image: url(../../../images/fondoceleste.jpeg);
+    width: 110%;
+
   }

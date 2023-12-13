@@ -1,7 +1,7 @@
 import React from "react";
 import foto1 from "../../../images/graficos.jpg"
 import foto2 from "../../../images/hombrenegocio.jpg"
-import mockup from "../../../images/mockup.jpg"
+import mockup from "../../../images/celulares.png"
 import perfil1 from "../../../images/foto.webp"
 import perfil2 from "../../../images/foto1.png"
 import style from "./Home.module.css";
@@ -32,7 +32,9 @@ const Home = () => {
                     </h2>
                 </div>
 
-                <img src={mockup} alt="software de comercio" style={{ width: "55rem" }} />
+<div className={style.imgmockup}>
+                <img src={mockup} alt="software de comercio" style={{ width: "55rem"  }} />
+</div>
 
                 <div className={style.boton}>
                     <button className={style.btntest}>TESTE GRATUITO 7 DIAS</button>

@@ -34,7 +34,7 @@ const Service = () => {
             <h3 className={style.text}>Suporte Técnico e Manutenção Contínua</h3>
 
             <div className={style.cuadro1}>
-            <img src={soporte} alt="" style={ { height : "25rem", marginLeft : "2rem"}}/>
+            <img src={soporte} alt="" style={ { height : "25rem", marginLeft : "4rem"}}/>
             <p className={style.parrafo}>Fornecer serviços de suporte técnico contínuos para garantir a operação ininterrupta do software. Isso pode incluir suporte
                 por telefone, suporte online, atualizações de software e manutenção preventiva. Um atendimento ao cliente eficiente e proativo pode fazer toda a diferença para que os clientes se sintam apoiados e satisfeitos com a solução.</p>
             </div>

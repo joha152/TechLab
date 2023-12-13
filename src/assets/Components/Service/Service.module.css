@@ -1,59 +1,62 @@
 /* Define la animación 'fadeIn' utilizando keyframes */
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-      color: #202A4E;
-    }
- 
-  }
-  
-  /* Aplica la animación 'fadeIn' al texto dentro de '.animacion-texto' */
-  .animacion  {
-    animation: fadeIn .5s ease-in-out;
-    color:#202A4E;
-
+  from {
+    opacity: 0;
   }
 
-  .focus{
-    font-family:  'merriweather', sans-serif;
+  to {
+    opacity: 1;
     color: #202A4E;
-   
-    padding: 2rem;
   }
 
-  .text{
-    font-family: 'merriweather', sans-serif;
-    font-size: 2rem;
-  }
+}
 
-  .parrafo{
-    font-size: 20px;    
-    width: 40rem;
-    padding: 2rem;
-    line-height: 2rem ;
-  }
+/* Aplica la animación 'fadeIn' al texto dentro de '.animacion-texto' */
+.animacion {
+  animation: fadeIn .5s ease-in-out;
+  color: #202A4E;
+
+}
+
+.focus {
+  font-family: 'merriweather', sans-serif;
+  color: #202A4E;
+  padding: 3rem;
+  width: 78rem;
+}
+
+.text {
+  font-family: 'merriweather', sans-serif;
+  font-size: 2rem;
+  margin-top: 20px;
+  width: 84rem;
+}
+
+.parrafo {
+  font-size: 20px;
+  width: 40rem;
+  padding: 2rem;
+  line-height: 2rem;
+}
 
 
 
-  .divBtn{
-    
-    padding: 2rem;
-    margin-bottom: 3rem;
-  }
+.divBtn {
 
-  .btn{
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
 
-    background-color: #F8FB7D;
-    color: #B26389;
-    font-size: 1.6rem;
-  }
+.btn {
 
-  .cuadro1{
+  background-color: #F8FB7D;
+  color: #B26389;
+  font-size: 1.6rem;
+}
+
+.cuadro1 {
 
   display: flex;
   flex-direction: row;
- margin-left: 2rem;
-  }
+  margin-left: 4rem;
+}

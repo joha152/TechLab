@@ -6,6 +6,8 @@ const Price = () => {
     return (
 
         <>
+        <div className={style.contenedorSupremo}>
+
             <div className={style.conteiner}>
                 <div className={style.card}>
 
@@ -91,6 +93,7 @@ const Price = () => {
                 </div>
             </div>
 
+        </div>
 
         </>
 

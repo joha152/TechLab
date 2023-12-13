@@ -1,3 +1,29 @@
 .titulo{
-    font-family: 'nunito';
+    font-family: 'nunito', sans-serif;
+    color: #202A4E;
+    margin-top: 5rem;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #202A4E;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'merriweather', sans-serif;
+}
+
+.parrafo{
+text-align: center;
+background-color:#202A4E;
+border-radius: 10px;
+padding: .9rem ;
+color: #F8FB7D;
+font-family: 'nunito';
+line-height: 1.6;
+margin-bottom: 4rem;
+}
+
+.contenedor{
+    background-image: url(../../../images/fondoamarillo.png);
+    width: 100%;
 }

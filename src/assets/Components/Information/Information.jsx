@@ -8,12 +8,12 @@ const Information = () => {
 
     return (
         <>
-        <div className={style.contenedor}>
 
             <div className={style.titulo}>
                 <h1>O que o TechLab quer para você</h1>
             </div>
 
+        <div className={style.contenedor}>
             <div className={style.subtitulo}>
                 <h2>Visão</h2>
             </div>

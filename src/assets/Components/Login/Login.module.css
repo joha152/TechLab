@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.cuadro {
+
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+}

@@ -2,6 +2,9 @@
     font-family: 'nunito', sans-serif;
     color: #202A4E;
     margin-top: 5rem;
+    margin-left: 3rem;
+    width: 80rem;
+    justify-content: center;
 }
 
 .subtitulo{
@@ -14,7 +17,7 @@
 
 .parrafo{
 text-align: center;
-background-color:#202A4E;
+background-color:#202a4ecb;
 border-radius: 10px;
 padding: .9rem ;
 color: #F8FB7D;
@@ -24,6 +27,5 @@ margin-bottom: 4rem;
 }
 
 .contenedor{
-    background-image: url(../../../images/fondoamarillo.png);
-    width: 100%;
+    margin-left: 9.5rem;
 }

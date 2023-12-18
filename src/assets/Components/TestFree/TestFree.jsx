@@ -1,10 +1,11 @@
 import React from "react";
+import image from "../../../images/construccion.png";
 
 const TestFree = ()=>{
 
     return(
         <>
-        <h1>aca va el test free</h1>
+        <img src={image} alt=""  style={{ width: "50rem" , marginLeft: "7rem"}}/>
         </>
     )
 }

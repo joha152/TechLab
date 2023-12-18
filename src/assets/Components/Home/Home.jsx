@@ -1,9 +1,9 @@
 import React from "react";
-import foto1 from "../../../images/graficos.jpg"
-import foto2 from "../../../images/hombrenegocio.jpg"
-import mockup from "../../../images/celulares.png"
-import perfil1 from "../../../images/foto.webp"
-import perfil2 from "../../../images/foto1.png"
+import foto1 from "../../../images/graficos.jpg";
+import foto2 from "../../../images/hombrenegocio.jpg";
+import mockup from "../../../images/celulares.png";
+import perfil1 from "../../../images/foto.webp";
+import perfil2 from "../../../images/foto1.png";
 import style from "./Home.module.css";
 
 const Home = () => {

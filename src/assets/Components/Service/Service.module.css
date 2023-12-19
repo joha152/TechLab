@@ -45,7 +45,11 @@
 
   padding: 2rem;
   margin-bottom: 3rem;
+  width: 80rem;
+  align-items: center;
+  justify-content: cen;
 }
+
 
 .btn {
 

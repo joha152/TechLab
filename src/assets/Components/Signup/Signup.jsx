@@ -1,5 +1,6 @@
 import React from "react"
 import style from "./Signup.module.css";
+import { Link } from "react-router-dom";
 
 const Singup = () => {
 
@@ -9,26 +10,29 @@ const Singup = () => {
 
             <div className={style.formConteiner}>
                 
-                <p className={style.title}>Login</p>
+                <p className={style.title}>Entrar</p>
                 
                 <form  className={style.form}>
                     <div className={style.inputGroup}>
-                        <label for="username">Username</label>
+                        <label for="username">Usuario</label>
                         <input type="text" name="username" id="username" placeholder="..." />
                     </div>
                     <div className={style.inputGroup} >
-                        <label for="password">Password</label>
+                        <label for="password">Senha</label>
                         <input type="password" name="password" id="password" placeholder="..." />
                         <div  className={style.forgot}>
-                            <a rel="noopener noreferrer" href="#">Forgot Password ?</a>
+                            <a rel="noopener noreferrer" href="#">
+Você esqueceu a senha?</a>
                         </div>
                     </div>
-                    <button  className={style.sign}>Sign in</button>
+                    <button  className={style.sign}>Entrar</button>
                 </form>
                
               
-                <p class="signup" className={style.signup}>Don't have an account?
-                    <a rel="noopener noreferrer" href="#" class="">Sign up</a>
+                <p class="signup" className={style.signup}>Você não tem uma conta?
+                <Link to="/login">
+                    <a rel="noopener noreferrer" href="#" class="">Cadastre-se</a>
+                </Link>
                 </p>
             </div>
         </div>

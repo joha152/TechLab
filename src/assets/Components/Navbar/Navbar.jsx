@@ -25,9 +25,11 @@ const Navbar = () => {
                 <button className={style.button}>SOBRE A EMPRESA</button>
                 </NavLink>
 
-                <NavLink to="/signup">
+                
+                <a href="https://www.sistemajvinformatica.com.br/" target="_blank" rel="noopener noreferrer">
                 <button className={style.button}>INICIAR SESSÃO</button>
-                </NavLink>
+                </a>
+                
 
                     <NavLink to="/testfree">
                 <button className={style.button1}>TESTE GRATUITO 7 DIAS</button>
@@ -36,6 +38,8 @@ const Navbar = () => {
         </>
     )
 }
+
+// https://www.sistemajvinformatica.com.br/
 
 
 export default Navbar

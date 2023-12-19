@@ -32,8 +32,7 @@ const Price = () => {
                     <div className={style.bloque}>
                         <h1>150R$</h1>
                         <h2>Plano Premium</h2>
-                        <h2>"Solução
-                            Abrangente”</h2>
+                        <h2>"Solução Abrangente”</h2>
                     </div>
                 </div>
             </div>
@@ -44,6 +43,7 @@ const Price = () => {
 
                 <div className={style.bloque2}>
                     <h2>Plano básico</h2>
+                    <h2>"Início Eficiente"</h2>
                     <h3>Criação</h3>
                     <p>Desenvolvimento e implementação
                         de software básico adaptado às necessidades
@@ -61,6 +61,7 @@ const Price = () => {
                 <div className={style.bloque2}>
 
                     <h2>Plano Padrão</h2>
+                    <h2>"Otimização Contínua"</h2>
                     <h3>Criação</h3>
                     <p>Desenvolvimento de software mais
                         avançado com recursos e
@@ -78,6 +79,7 @@ const Price = () => {
 
                 <div className={style.bloque2} >
                     <h2>Plano Premium </h2>
+                    <h2>"Solução Abrangente”</h2>
                     <h3>Criação</h3>
                     <p>Desenvolvimento de uma solução
                         abrangente e altamente

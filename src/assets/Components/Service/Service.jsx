@@ -3,6 +3,7 @@ import style from "./Service.module.css"
 import crm from "../../../images/crm.jpg";
 import persoa from "../../../images/persoa.jpg";
 import soporte from "../../../images/soporte.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -42,7 +43,9 @@ const Service = () => {
 <hr />
             </div>
             <div className={style.divBtn}>
+                <Link to="/testfree">
                 <button className={style.btn}> EXPERIMENTE GRATUITAMENTE 7 DIAS</button>
+                </Link>
             </div>
         </>
     )

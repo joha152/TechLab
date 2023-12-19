@@ -1,6 +1,6 @@
 body {
   background-image: url(../../../images/fondoWeb.png);
-  
+
 }
 .card {
     box-sizing: border-box;
@@ -37,7 +37,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
   }
 
   .bloque{

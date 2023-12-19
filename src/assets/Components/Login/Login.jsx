@@ -7,27 +7,33 @@ const Login = () => {
     return (
 
         <>
-            <form action="submit">
-                <div className={style.form}>
-                    <label htmlFor="">Usuário:</label>
-                    <input type="text" />
+            <div className={style.contenedorPadre}>
 
-                    <label htmlFor="">Senha:</label>
-                    <input type="email" />
+<div className={style.formConteiner}>
+    
+    <p className={style.title}>Cadastre sua conta</p>
+    
+    <form  className={style.form}>
+        <div className={style.inputGroup}>
+            <label for="text">Nome da empresa</label>
+            <input type="text" name="username" id="username" placeholder="..." />
+        </div>
+        <div className={style.inputGroup} >
+            <label for="text">Email</label>
+            <input type="text" name="email" id="email" placeholder="..." />
+        </div>
+        <div className={style.inputGroup} >
+            <label for="text">Celular</label>
+            <input type="text" name="email" id="email" placeholder="..." />
+        </div>
 
-                    <button type="">ENTRAR</button>
-                </div>
-
-                <div className={style.cuadro}>
-                    <h2>Você esqueceu a senha?</h2>
-                    <h3>Clique aqui</h3>                        
-                </div>
-
-                <div>
-                    <h2>Você não é um usuário?</h2>
-                    <h3>Cadastre-se</h3>   
-                </div>
-            </form>
+        <button  className={style.sign}>Sign in</button>
+    </form>
+   
+  
+    
+</div>
+</div>
         </>
     )
 }

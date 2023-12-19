@@ -29,14 +29,14 @@ margin-right: 2rem;
     margin-left: 1rem;
     padding: .5rem;
     background-color:transparent;
-    color: #F8FB7D;
+    color: fffff;
     font-size: 14px;
     width: fit-content;
     height: fit-content;
     text-align: center;
     padding: 10px 20px;
-    font-family: 'Nunito', sans-serif;
-    border-color: #F8FB7D;
+    font-family: 'nunito', sans-serif;
+    
 }
 
 
@@ -44,8 +44,7 @@ margin-right: 2rem;
 
    
    button:hover {
-    color: rgb(28, 224, 214);
-    border-color: rgb(28, 224, 214);
+  
     transform: scale(1.1);
    }
 
@@ -59,14 +58,14 @@ margin-right: 2rem;
     margin-left: 1rem;
     padding: 1rem;
    font-weight: 500;
-    background-color: #F8FB7D;
-    color: #B26389;
+    background-color: #58a31a;
+    color: fffff;
     font-size: 16px;
     width: fit-content;
     height: fit-content;
     text-align: center;
     padding: 10px 20px;
     font-family: 'Nunito';
-    border-color: #F8FB7D;
+
    }
  

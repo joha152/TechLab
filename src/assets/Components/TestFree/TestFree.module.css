@@ -1,0 +1,18 @@
+.boton{
+    color: white;
+    background-color: #58a31a;
+    height: 4rem;
+    padding: 0.7em 2em;
+    width: 20rem;
+
+}
+
+.conteiner{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+    
+    height: 20rem;
+    width: 84.2rem;
+    padding-top: 10rem;
+}
